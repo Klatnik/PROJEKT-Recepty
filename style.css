@@ -41,7 +41,7 @@ p {
 }
 
 h1 {
-	font-size: 28px;
+	font-size: 18px;
 	margin-bottom: 10px;
 }
 
@@ -62,6 +62,10 @@ h1, p {
 .velky {
 	background-image: url(images/salat.jpg);
 	
+}
+
+.velky h1 {
+	font-size: 28px;
 }
 
 .jedna {
