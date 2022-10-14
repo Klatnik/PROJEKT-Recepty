@@ -47,6 +47,7 @@ h2 {
 	font-size: 18px;
 	margin-top: 9%;
 	font-family: 'Raleway', sans-serif;
+
 }
 
 h1, h2, p {
@@ -102,5 +103,55 @@ h1, h2, p {
 }
 
 @media screen and (min-width: 480px) {
+	.kontejner {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
+	h2 {
+		font-size: 22px;
+		margin-top: 30%;
+	}
+
+	.recept {
+		width: calc(100% / 4);
+		min-height: 150px;
+		padding: 20px;
+	}
+
+	.velky {
+		width: 100%;
+		min-height: 250px;
+	}
+
+	.velky h1 {
+		font-size: 36px;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.kontejner {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	h2 {
+		font-size: 22px;
+		margin-top: 30%;
+	}
+
+	.recept {
+		width: calc(100% / 4);
+		min-height: 150px;
+		padding: 20px;
+	}
+
+	.velky {
+		width: 100%;
+		min-height: 250px;
+	}
+
+	.velky h1 {
+		font-size: 36px;
+	}
 }
