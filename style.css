@@ -38,12 +38,15 @@ Flexboxy mohou být vnořené do sebe, klidně několikrát.
 
 p {
 	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0;
+
 }
 
 h2 {
 	font-size: 18px;
 	margin-top: 9%;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, p {
@@ -78,14 +81,13 @@ h1, h2, p {
 .velky h1 {
 	font-size: 28px;
 	margin-top: 30%;
+	font-family: 'Raleway', sans-serif;
 
 }
 
 .jedna {
 	background-image: url(images/chlebicek.jpg);
 }
-
-
 
 .dva {
 	background-image: url(images/tacos.jpg);
@@ -97,4 +99,8 @@ h1, h2, p {
 
 .ctyri {
 	background-image: url(images/burger.jpg);
+}
+
+@media screen and (min-width: 480px) {
+
 }
