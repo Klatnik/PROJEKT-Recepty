@@ -103,24 +103,24 @@ h1, h2, p {
 }
 
 @media screen and (min-width: 480px) {
-	.kontejner {
+	.kontejner2 {
 		display: flex;
 		flex-wrap: wrap;
-	}
 
+	}
 	h2 {
 		font-size: 22px;
 		margin-top: 30%;
 	}
 
 	.recept {
-		width: calc(100% / 4);
+		flex-basis: calc(100% / 2);
 		min-height: 150px;
 		padding: 20px;
+		flex-grow: 1;
 	}
 
 	.velky {
-		width: 100%;
 		min-height: 250px;
 	}
 
@@ -129,29 +129,29 @@ h1, h2, p {
 	}
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 860px) {
 	.kontejner {
 		display: flex;
-		flex-wrap: wrap;
 	}
 
 	h2 {
-		font-size: 22px;
+		font-size: 28px;
 		margin-top: 30%;
 	}
-
 	.recept {
-		width: calc(100% / 4);
-		min-height: 150px;
-		padding: 20px;
+		width: calc(100% / 3);
+	}
+	.kontejner2 {
+		min-height: 200px;
+		flex-shrink: 1;
 	}
 
 	.velky {
-		width: 100%;
-		min-height: 250px;
+		min-height: 400px;
 	}
 
 	.velky h1 {
-		font-size: 36px;
+		font-size: 48px;
+		margin-top: 60%;
 	}
-}
+} 
