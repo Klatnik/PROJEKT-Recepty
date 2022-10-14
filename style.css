@@ -38,39 +38,54 @@ Flexboxy mohou být vnořené do sebe, klidně několikrát.
 
 p {
 	font-size: 14px;
+	margin: 0;
 }
 
-h1 {
+h2 {
 	font-size: 18px;
-	margin-bottom: 10px;
+	margin-top: 9%;
 }
 
-h1, p {
+h1, h2, p {
 	color: white;
-	text-shadow: 1;
+	text-shadow: 2px 2px 4px #000000;
+	margin-bottom: 0;
 	
 }
 
 .recept {
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	border: 1px solid white;
 	padding: 10px;
+	min-height: 90px;
+
+}
+
+.text {
+	display: flex;
+	justify-content: space-between;
 
 }
 
 .velky {
 	background-image: url(images/salat.jpg);
+	min-height: 200px;
 	
 }
 
 .velky h1 {
 	font-size: 28px;
+	margin-top: 30%;
+
 }
 
 .jedna {
 	background-image: url(images/chlebicek.jpg);
 }
+
+
 
 .dva {
 	background-image: url(images/tacos.jpg);
